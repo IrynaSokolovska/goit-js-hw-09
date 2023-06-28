@@ -38,7 +38,7 @@ btn.addEventListener('click', () => {
     const currentTime = new Date();
     const deltaTime = flatpickrEl.selectedDates[0].getTime() - currentTime.getTime();
     convertMs(deltaTime);
-    console.log("123");
+    console.log("Counter");
   }, 1000); 
 });
 
