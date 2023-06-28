@@ -33,6 +33,7 @@ const options = {
 const flatpickrEl = flatpickr(inputEl, options);
 let timerId = null;
 
+
 btn.addEventListener('click', () => {
   timerId = setInterval(() => {
     const currentTime = new Date();

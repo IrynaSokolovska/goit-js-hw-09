@@ -81,6 +81,7 @@
 // console.log(promise);
 
 
+
 // const promise = new Promise((resolve, reject) => {
 //   const canFullfill = Math.random() > 0.5;
 //   setTimeout(){}
