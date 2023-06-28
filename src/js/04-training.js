@@ -59,24 +59,24 @@
 //   .catch(error => console.log(error));
 
 
-const promise = new Promise((resolve, reject) => {
-  const canFullfill = Math.random() > 0.5;
-  setTimeout(() =>{
-    if (canFullfill) {
-      resolve('done sucsess успешно');
-    }
-    reject('отклонено reject promis');
-  }, 2000);
+// const promise = new Promise((resolve, reject) => {
+//   const canFullfill = Math.random() > 0.5;
+//   setTimeout(() =>{
+//     if (canFullfill) {
+//       resolve('done sucsess успешно');
+//     }
+//     reject('отклонено reject promis');
+//   }, 2000);
   
-});
+// });
 
-promise.then(result => {
-  console.log(result);
-},
-  error => {
-    console.log(error);
-  }
-);
+// promise.then(result => {
+//   console.log(result);
+// },
+//   error => {
+//     console.log(error);
+//   }
+// );
 
 // console.log(promise);
 
